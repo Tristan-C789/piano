@@ -70,7 +70,7 @@ def startRecording():
             writer = csv.writer(file)
             writer.writerow(clefs)
         global notif
-        notif = Label(fenetre, text="Enregistrement en cours...")
+        notif = Label(fenetre, text="Enregistrement en cours... - Attention /!\ Les notes trop courtes peuvent causer des bugs")
         notif.pack()
     else:
         pass
